@@ -3,6 +3,7 @@
 @use 'components/buttons';
 @use 'events';
 @use 'variables';
+@use 'footer';
 
 
 *{
@@ -29,4 +30,8 @@
     @media (max-width:1024px) {
         max-width: 90%;
     }
+}
+
+.text-italic{
+    color: #000;
 }

@@ -8,22 +8,23 @@
     text-decoration: none;
     white-space: nowrap;
     text-align: center;
+    width: 200px;
+    border-radius: 4px;
 
 
     &--primary {
         color: variables.$textColor;
-        background-color: variables.$buttonColor;
+        background-color: variables.$blue1;
     }
 
-    @media(max-width:640px) {
+    @media(max-width:767px) {
         display: block;
         width: 100%;
     }
 
 
-    @media(max-width: 1024px) {
+    @media(min-width: 768px) and (max-width: 1024px) {
         display: flex;
         align-items: center;
     }
-
 }

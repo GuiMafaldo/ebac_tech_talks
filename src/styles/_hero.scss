@@ -3,8 +3,8 @@
 
 .hero {
     padding-top: 64px;
-    padding-bottom: 100px;
-    background-image: url(../images/fundo.png);
+    padding-bottom: 200px;
+    background-image: url(../images/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -35,28 +35,31 @@
         line-height: 56px;
         font-weight: 800;
         text-align: center;
-
-    
+        font-family: "Righteous", sans-serif;
+        font-weight: 400;
+        font-style: normal;
     }
 
     &__logo {
         margin: 0 auto;
         height: 80px;
         display: block;
+        width: 300px;
+        height: 250px;
     }
 
 
-    @media (max-width:640px) {
+    @media (max-width:767px) {
         padding: 40px 0;
         
         &__logo{
-            height: 30px;
+            width: 300px;
         }
 
         &__text{
             font-size: 20px;
             line-height: 22px;
-            margin: 24px 0;
+            margin: 28px 0;
         }
     }
 }
